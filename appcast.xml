@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Sketch Watermarks</title>
+		<link>https://raw.githubusercontent.com/heivin/sketch-watermark/main/appcast.xml</link>
+		<description>A Sketch plugin adding watermarks for distribution.</description>
+		<language>en</language>
+		<item>
+			<title>Version 0.1</title>
+			<description>
+				<![CDATA[
+				<ul>
+					<li>Popover now stays open and updates to automatically show new presets when a palette is loaded</li>
+				</ul>
+				]]>
+			</description>
+			<enclosure url="https://github.com/heivin/sketch-watermark/archive/refs/tags/0.1.zip" watermarks:version="0.1" />
+		</item>
+	</channel>
+</rss>

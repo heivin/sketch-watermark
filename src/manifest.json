@@ -2,10 +2,12 @@
   "name": "Watermarks",
   "description": "Quickly add watermarks for distribution",
   "author": "Heivin Wu",
-  "homepage": "https://github.com/example/select-shapes",
+  "homepage": "https://github.com/heivin/sketch-watermark",
   "version": "0.1",
   "identifier": "com.heivin.sketch.plugin.watermarks",
-  "compatibleVersion": "52.1",
+  "compatibleVersion": "54.1",
+  "bundleVersion": "0.1",
+	"appcast": "https://raw.githubusercontent.com/heivin/sketch-watermark/main/appcast.xml",
   "commands": [
     {
       "name": "Add for all artboards",
