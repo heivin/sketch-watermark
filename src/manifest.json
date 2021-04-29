@@ -1,0 +1,26 @@
+{
+  "name": "Watermarks",
+  "description": "Quickly add watermarks for distribution",
+  "author": "Heivin Wu",
+  "homepage": "https://github.com/example/select-shapes",
+  "version": "0.1",
+  "identifier": "com.heivin.sketch.plugin.watermarks",
+  "compatibleVersion": "52.1",
+  "commands": [
+    {
+      "name": "Add for all artboards",
+      "identifier": "all",
+      "shortcut": "ctrl shift w",
+      "script": "add_all.js",
+      "handler": "selectAll"
+    },
+    {
+      "name": "Add for seleted artboards",
+      "identifier": "seleted",
+      "script": "add_all.js"
+    }
+  ],
+  "menu": {
+    "items": ["all", "circles", "rectangles"]
+  }
+}
